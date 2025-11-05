@@ -1,0 +1,26 @@
+qubit minima unidad de informacion en una computadora cuantica
+si tenemos 8qbits
+en binario normal se pueden armar de 0 a 255
+con un arreglo de 8qbits pueden representar los 256 
+posibles valores
+
+probabilidad y logica binaria
+
+P ---> probabilidad
+P(A) probabilidad de que ocurra A
+P(A and B) probabilidad de que ocurra A y B
+P((A and B) or C) probabilidad de que ocurra A y B o que ocurra solo C
+
+P(A and B) = 0 ----> mutuamente exckuyente
+
+P(A and B) = P(A) * P(B)
+
+
+
+P(A Or B) = P(A) + P(B)  ---> mutuamente exckuyente
+
+P(A or B) = P(A) * P(B) - P(A and B)
+
+
+cuando dividimos dos numeros complejos
+multiplicamos y dividimos por el comlpejo conjugado
