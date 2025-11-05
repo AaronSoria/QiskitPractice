@@ -14,7 +14,7 @@ P((A and B) or C) probabilidad de que ocurra A y B o que ocurra solo C
 P(A and B) = 0 ----> mutuamente exckuyente
 
 P(A and B) = P(A) * P(B)
-
+ 
 
 
 P(A Or B) = P(A) + P(B)  ---> mutuamente exckuyente
@@ -24,3 +24,113 @@ P(A or B) = P(A) * P(B) - P(A and B)
 
 cuando dividimos dos numeros complejos
 multiplicamos y dividimos por el comlpejo conjugado
+
+producto tensorial ---> vectores o matrices de una sola columna
+
+un tensor, la fisica es independiente del
+observador
+
+si yo veo una caja y otro la ve desde afuera
+
+
+
+dados dos vectores
+
+a=(a1, a2, a3)
+b=(b1,b2,b3)
+
+el producto tensorial esta dado por
+
+a1*b1,a2*b2,a3*b3
+
+producto tensorial segun el curso
+
+a=(a1, a2)
+b= (b1,b2,b3)
+
+r=(a1*b1, a1*b2, a1*b3, a2*b1, a2*b2, a2*b3)
+
+multiplicar una matriz, por la matriz identidad da la misma matrices
+
+el inverso de un numero real
+es el mismo elevado a la -1
+
+el inverso de una matriz:
+
+una matriz por su inverso da la
+matriz identidad
+
+la traspuesta de una matriz
+consiste en hacer a las filas
+columnas
+
+se puede intercambiar los numeros
+de la diagonal
+
+^T _----> significa traspuesta
+
+(X*Y)^T =X^T * Y^T
+
+el complejo conjudao de una matriz
+significa aplicar el 
+conjuntado a toda la parte imaginario
+de cada aij
+
+la matriz adjunta
+primero transponemos y luego aplicamos
+el complejo conjugado
+
+^+ _----> significa adjunta
+
+una matriz es unitaria
+
+si
+X⁺ = X⁻1
+
+martriz unitaria
+XX⁺ = XX⁻1 = I
+
+
+son operaciones reversibles
+
+una matrix es herminitania
+
+si
+X^+ = X
+
+es una operacion irreversible
+
+
+transformacion lineal
+
+x2 = Ax1 + By1
+y2 = Cx1 + Dy1
+
+
+(x2)   =  (A  B) * (x1)
+(y2)      (C  D)   (y1)
+
+
+supongamos que tenemos un vectores
+
+1 
+0
+
+(si lo ubicamos en el plano seria x= 1, y = 0)
+
+y lo queremos rotamos 45 grados
+
+la formula seria
+cos(45)   -sen(45)   *   1
+sen(45)   cos(45)        0
+
+que da el siguiente valor
+
+0.7
+0.7
+
+
+las rotaciones son las que se hacen 
+en los qbits
+
+
