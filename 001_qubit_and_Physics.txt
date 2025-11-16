@@ -1,0 +1,72 @@
+superposicion e interferencia
+comportamiento como particula o particula
+
+entrelazamiento
+cuando el estado de una particula
+se modifica, lo hace otra a la
+que esta entrelazada
+
+estado de un qbit
+se representa en un vector vertical
+o una matriz columna
+
+el estado down |0>
+que seria el 0 clasico
+1
+0
+
+el estado up |1>
+seria el 1 clasico
+0
+1
+
+cada elemento del vector representa
+probabilidades
+
+P(spin down)
+P(spin up)
+
+la suma de cada probabilidad al cuadrado
+debe ser igual a 1
+
+si rotamos el qubit de alguna forma
+modificamos la probabilidad de que sea
+1 o 0
+
+usar la notacion de bra y ket
+
+ por ejemplo si tenemos
+ dos qbits
+
+ 1      0      0      0   ---> prob de que sea P(00)
+ 0      1      0      0   ---> prob de que sea P(01)
+ 0      0      1      0   ---> prob de que sea P(10)
+ 0      0      0      1   ---> prob de que sea P(11)
+
+ |00>   |01>   |10>   |11>
+
+ esto es el resultado de hacer
+ el producto tensorial
+
+ |0> x |0> = |00>
+ |0> x |1> = |01>
+ |1> x |0> = |10>
+ |1> x |1> = |11>
+
+ no es comutativo
+
+
+de esta forma evitamos escribir toda la matriz
+
+si tenemos
+(1/sqrt(2))*(|00> + |11>)
+
+significa que la matriz es asi:
+
+1/sqrt(2)
+0
+0
+1/sqrt(2)
+
+los bits estan entrelazados y en estado de superposicion
+
